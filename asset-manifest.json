@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/micaalvarez/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/micaalvarez/static/js/main.926fc29f.chunk.js",
-    "main.js.map": "/micaalvarez/static/js/main.926fc29f.chunk.js.map",
-    "runtime-main.js": "/micaalvarez/static/js/runtime-main.ede52a66.js",
-    "runtime-main.js.map": "/micaalvarez/static/js/runtime-main.ede52a66.js.map",
-    "static/js/2.5f232bd3.chunk.js": "/micaalvarez/static/js/2.5f232bd3.chunk.js",
-    "static/js/2.5f232bd3.chunk.js.map": "/micaalvarez/static/js/2.5f232bd3.chunk.js.map",
-    "static/js/3.4bd3042a.chunk.js": "/micaalvarez/static/js/3.4bd3042a.chunk.js",
-    "static/js/3.4bd3042a.chunk.js.map": "/micaalvarez/static/js/3.4bd3042a.chunk.js.map",
+    "main.css": "/micaalvarez/static/css/main.e4f9ac12.chunk.css",
+    "main.js": "/micaalvarez/static/js/main.bffde017.chunk.js",
+    "main.js.map": "/micaalvarez/static/js/main.bffde017.chunk.js.map",
+    "runtime-main.js": "/micaalvarez/static/js/runtime-main.2836e80a.js",
+    "runtime-main.js.map": "/micaalvarez/static/js/runtime-main.2836e80a.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/micaalvarez/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.85c9d1bd.chunk.js": "/micaalvarez/static/js/2.85c9d1bd.chunk.js",
+    "static/js/2.85c9d1bd.chunk.js.map": "/micaalvarez/static/js/2.85c9d1bd.chunk.js.map",
     "index.html": "/micaalvarez/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/micaalvarez/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.5f232bd3.chunk.js.LICENSE.txt": "/micaalvarez/static/js/2.5f232bd3.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/micaalvarez/static/media/logo.6ce24c58.svg"
+    "static/css/2.ae9e5f60.chunk.css.map": "/micaalvarez/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.e4f9ac12.chunk.css.map": "/micaalvarez/static/css/main.e4f9ac12.chunk.css.map",
+    "static/js/2.85c9d1bd.chunk.js.LICENSE.txt": "/micaalvarez/static/js/2.85c9d1bd.chunk.js.LICENSE.txt",
+    "static/media/Mask Group.e1ebb4df.png": "/micaalvarez/static/media/Mask Group.e1ebb4df.png",
+    "static/media/melilabs.d4a2f5ef.png": "/micaalvarez/static/media/melilabs.d4a2f5ef.png",
+    "static/media/melilabsvideo.d5b3f1a5.mp4": "/micaalvarez/static/media/melilabsvideo.d5b3f1a5.mp4",
+    "static/media/rick&mortyvideo.391a42e2.mp4": "/micaalvarez/static/media/rick&mortyvideo.391a42e2.mp4",
+    "static/media/rym.168914ad.png": "/micaalvarez/static/media/rym.168914ad.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ede52a66.js",
-    "static/js/2.5f232bd3.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.926fc29f.chunk.js"
+    "static/js/runtime-main.2836e80a.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.85c9d1bd.chunk.js",
+    "static/css/main.e4f9ac12.chunk.css",
+    "static/js/main.bffde017.chunk.js"
   ]
 }
