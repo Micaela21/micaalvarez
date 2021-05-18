@@ -1,0 +1,118 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #003249 0%, #5d2e46 100%);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 50px 50px 20px 50px;
+  border: 0;
+}
+
+.formTitle {
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.email {
+  width: 551px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 0;
+  outline: none;
+}
+
+.emailL {
+  display: flex;
+  flex-direction: column;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  text-align: justify;
+  color: white;
+}
+
+.subject {
+  width: 551px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 0;
+  outline: none;
+}
+
+.subjectL {
+  display: flex;
+  flex-direction: column;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  text-align: justify;
+  color: white;
+}
+
+.message {
+  width: 551px;
+  height: 300px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  outline: none;
+  padding: 10px;
+}
+
+.messageL {
+  display: flex;
+  flex-direction: column;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  text-align: justify;
+  color: white;
+}
+
+.submit {
+  width: 114px;
+  height: 46px;
+  background: #ffffff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 22px;
+  color: #3f3d56;
+  padding-top: 10px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+}
+
+.align {
+  width: 550px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

@@ -1,0 +1,169 @@
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  color: #5d2e46;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  color: #5d2e46;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  background: transparent;
+  border: 0;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1);
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  bottom: 0;
+  transform: translate(0, 50%);
+  overflow: hidden;
+}
+
+.page {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  background: #5d2e46;
+  margin-right: 10px;
+}
+
+.page.active {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  background: #003249;
+  margin-right: 10px;
+}
+
+.titleProject {
+  position: absolute;
+  top: -150px;
+  right: 0;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+}
+
+.titleProject .linkRepo {
+  display: inline-block;
+  position: relative;
+  transition: ease-in-out 1s;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #003249;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+
+.titleProject .linkRepo:after {
+  content: "linkCode";
+  position: absolute;
+  cursor: pointer;
+  right: -80px;
+  opacity: 0;
+  transition: ease 1s;
+}
+
+.titleProject:hover .linkRepo {
+  padding-right: 125px;
+}
+
+.titleProject:hover .linkRepo:after {
+  opacity: 1;
+  right: 0;
+}
+
+.titleProject .linkPage {
+  display: inline-block;
+  position: relative;
+  transition: ease 2s;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #003249;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titleProject .linkPage:after {
+  content: "linkPage";
+  position: absolute;
+  cursor: pointer;
+  right: -80px;
+  opacity: 0;
+  transition: ease 2s;
+}
+
+.titleProject:hover .linkPage {
+  padding-right: 100px;
+}
+
+.titleProject:hover .linkPage:after {
+  opacity: 1;
+  right: 0;
+}
+
+.description {
+  width: 1200px;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  font-family: "Englebert";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: right;
+  color: #ffffff;
+}
