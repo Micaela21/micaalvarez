@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Links.css";
 
 function Links() {
-  const [download, setDownload] = useState(false);
   return (
     <div>
       <a href="https://www.linkedin.com/in/mi-a-alvz/">
